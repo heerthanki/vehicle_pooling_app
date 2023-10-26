@@ -1,0 +1,122 @@
+.give-ride-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2% 5%;
+  min-height: 100vh;
+  text-align: center;
+  background-image: url('/public/bgimagenew.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.give-ride-container .nav-bar h2 {
+  font-size: 2rem;
+  margin-right: 550px;
+  color: #333;
+}
+
+.give-ride-container .nav-bar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #333;
+  padding: 12px 0;
+}
+
+.give-ride-container .nav-bar a {
+  color: #333;
+  text-decoration: none;
+  font-size: 1.5rem;
+  margin-right: 1rem;
+  display: flex; 
+  align-items: center; /* Add this to vertically center icons */
+}
+
+.give-ride-container .nav-bar a svg {
+  opacity: 0.7;
+  fill: black; /* Set the icon color to black */
+  margin-right: 4px; /* Adjust this value to control the space between text and icons */
+}
+
+.give-ride-container .nav-bar a:hover svg {
+  opacity: 1;
+}
+.give-ride-container .nav-bar .logout-icon svg {
+  fill: black; 
+  margin-top: 8px;
+}
+
+
+
+.give-ride-container form {
+  opacity: 0.8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 40%;
+  width: 100%;
+}
+
+.give-ride-container .form-row {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin: 10px 5px;
+}
+
+.give-ride-container .form-row label {
+  flex: 2;
+  font-size: 1.2rem;
+  text-align: left;
+  margin-right: 10px;
+}
+
+.give-ride-container .form-row select,
+.give-ride-container .form-row input[type="text"],
+.give-ride-container .form-row input[type="number"] {
+  flex: 2;
+  width: 100%; 
+  height: 4rem; 
+  padding: 0.9rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1.2rem;
+}
+.give-ride-container .form-row input::placeholder {
+  color: #aaa;
+}
+.give-ride-container .form-row input[type="radio"] {
+  flex: 2;
+  margin-right: 5px;
+}
+
+.give-ride-container select {
+  cursor: pointer;
+}
+
+.give-ride-container button {
+  background-color: #5b93d0;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 1rem 2%;
+  font-size: 1.2rem;
+  cursor: pointer;
+  
+}
+
+.give-ride-container button:hover {
+  background-color: #0056b3;
+}
+
+/* Remove global padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}

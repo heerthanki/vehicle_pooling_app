@@ -1,0 +1,123 @@
+.give-ride-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2% 5%;
+  min-height: 100vh;
+  text-align: center;
+  background-color: #87baf0;
+}
+
+.give-ride-container .nav-bar h2 {
+  font-size: 2rem;
+  margin-right: 550px;
+  color: #333;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.give-ride-container .nav-bar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #333;
+  padding: 12px 0;
+}
+
+.give-ride-container .nav-bar a {
+  color: #333;
+  text-decoration: none;
+  font-size: 1.5rem;
+  margin-right: 1rem;
+  display: flex; /* Add this to align icons properly */
+  align-items: center; /* Add this to vertically center icons */
+}
+
+.give-ride-container .nav-bar a svg {
+  opacity: 0.7;
+  fill: black; /* Set the icon color to black */
+  margin-right: 4px; /* Adjust this value to control the space between text and icons */
+}
+
+.give-ride-container .nav-bar a:hover svg {
+  opacity: 1;
+}
+.give-ride-container .nav-bar .logout-icon svg {
+  fill: black; /* Set the icon color to black for the logout button */
+  margin-top: 8px;
+}
+
+
+.take-ride-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2% 5%;
+    min-height: 100vh;
+    text-align: center;
+    background-color: #f4f4f4;
+  }
+  
+  .take-ride-container .nav-bar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #333;
+    padding: 12px 0;
+    position: fixed;
+    top: 0; 
+  }
+  
+  .take-ride-container .nav-bar h2 {
+    font-size: 2rem;
+    margin-left: 10rem; 
+    color: #333;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    margin-right: 700px;
+    margin-top: 60px;
+  }
+  
+  .take-ride-container .nav-bar a {
+    color: #333;
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin-left: 90px;
+margin-top: 60px;
+  }
+  
+  .take-ride-container .nav-bar a svg {
+    opacity: 0.7;
+  }
+  
+  .take-ride-container .nav-bar a:hover svg {
+    opacity: 1;
+  }
+  
+  
+  .ride-input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .search-button {
+    background-color: #5b93d0;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .search-button:hover {
+    background-color: #0056b3;
+  }
+  

@@ -1,0 +1,89 @@
+/* Default styles for all screen sizes */
+* {
+  padding: 2px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(41, 43, 43);
+  color: #fff;
+  padding: 10px;
+  height: 50px;
+}
+.employee-name{
+  font-weight: bolder;
+  font-size: large;
+}
+.left, .right {
+  display: flex;
+}
+
+.right {
+  justify-content: flex-end;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+.navbar a svg {
+  opacity: 0.7;
+}
+.navbar a:hover svg {
+  opacity: 1;
+}
+.card-container {
+  display: flex;
+  justify-content: center;  
+  align-items: center; 
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+.logout-icon svg {
+  color: #fff;
+  opacity: 1;
+}
+.logout-icon svg:hover{
+  cursor: pointer;
+}
+.card-button {
+  width: 300px; 
+  height: 160px; 
+  border: 2px solid white;
+  border-radius: 5px;
+  text-align: center;
+  background-color: white;
+  text-decoration: none; 
+  color: black;
+  font-weight: bold;
+  font-size: medium;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 20px;
+  transition: 1.5s;
+}
+
+
+@media screen and (min-width: 400px) {
+  body {
+    background-image: url('/public/bgimage2.jpg'); /* Replace with the background image for large screens */
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    background-position:center;
+    margin: 0;
+    padding: 0;
+    opacity: 1;
+  }
+}
+
+.card-button:hover {
+  background-color: rgb(249, 194, 92);
+  color: black;
+  cursor: pointer;
+  font-size: large;
+}
